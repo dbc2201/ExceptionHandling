@@ -7,4 +7,7 @@
 package exceptions;
 
 public class UncaughtException {
+    public static void main(String[] args) {
+
+    }
 }
