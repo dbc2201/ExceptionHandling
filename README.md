@@ -36,3 +36,11 @@ is created and `thrown` in the method that has created the error.
 it describes the types of exceptions that can be automatically handled.
 - The `java.lang.Error` class describes about problems that cannot be handled by our programs, these are usually major
 system failures like `OutOfMemoryError` or `StackOverflowError`.
+
+## The Exception in the `UncaughtException.java` file
+We see the output as (shown in red on the IntelliJ console)
+```
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at exceptions.UncaughtException.main(UncaughtException.java:14)
+```
+Let us understand the above line:
