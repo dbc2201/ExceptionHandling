@@ -44,3 +44,10 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 	at exceptions.UncaughtException.main(UncaughtException.java:14)
 ```
 Let us understand the above line:
+1. The very first word `Exception` in `Exception in thread ...` is telling us that an exception has occurred.
+2. We can identify the type of exception that has occurred by looking at the name of the exception,
+just see the `java.lang.ArithmeticException` part. Yes, you guessed it right! IT IS indeed a class in the `java.lang` 
+package.
+3. After the `:` the compiler is telling us the reason for the occurrence of this exception, here, it is `/ by zero`.
+4. If you look at the last line, you will find a link to the actual file, method and line where the exception has 
+occurred.
