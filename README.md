@@ -21,3 +21,8 @@ is created and `thrown` in the method that has created the error.
 3. `throw`.
 4. `throws`.
 5. `finally`.
+
+## Hierarchy of Exceptions in Java
+![](img/exceptionHierarchy.png)  
+
+  
