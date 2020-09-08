@@ -23,6 +23,16 @@ is created and `thrown` in the method that has created the error.
 5. `finally`.
 
 ## Hierarchy of Exceptions in Java
-![](img/exceptionHierarchy.png)  
+![exception hierarchy in Java](./img/exceptionHierarchy.png)  
 
-  
+- The `Throwable` class in the `java.lang` package is the superclass of all exception types in Java.
+([`java.lang.Throwable`](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/Throwable.html)).  
+- The `java.lang.Throwable` class has two direct known subclasses;
+ namely, the `Exception` class and the `Error` class, both in the `java.lang` package.
+ ([`java.lang.Exception`](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/Exception.html),
+  [`java.lang.Error`](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/Error.html))
+- The `java.lang.Exception` class describes the "exceptional conditions" that we should handle in our programs.
+- The `java.lang.Exception` class has a subclass called `RuntimeException`, also in the `java.lang` package; 
+it describes the types of exceptions that can be automatically handled.
+- The `java.lang.Error` class describes about problems that cannot be handled by our programs, these are usually major
+system failures like `OutOfMemoryError` or `StackOverflowError`.
