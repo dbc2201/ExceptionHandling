@@ -10,5 +10,7 @@ public class UncaughtException {
     public static void main(String[] args) {
         int number = 4;
         int divisor = 0;
+        // forceful division by zero.
+        System.out.println(number / divisor);
     }
 }
