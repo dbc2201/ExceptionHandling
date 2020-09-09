@@ -6,5 +6,9 @@
  * */
 package exceptions.atm;
 
-public class MyBankATM {
+public class MyBankATM implements ATM {
+    @Override
+    public void dispenseMoney(double amount) {
+
+    }
 }
