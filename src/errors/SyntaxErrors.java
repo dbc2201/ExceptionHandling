@@ -7,4 +7,7 @@
 package errors;
 
 public class SyntaxErrors {
+    public static void main(String[] args) {
+
+    }
 }
