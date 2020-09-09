@@ -6,8 +6,16 @@
  * */
 package exceptions.atm;
 
+
+import exceptions.atm.exceptions.NotEnoughMoneyException;
+
 public class Main {
     public static void main(String[] args) {
-
+        MyBankATM atmObject = new MyBankATM();
+        try {
+            atmObject.dispenseMoney(12345.0);
+        } catch (NotEnoughMoneyException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
