@@ -7,4 +7,10 @@
 package exceptions.atm;
 
 public interface ATM {
+    /**
+     * This method dispenses cash for a customer of the Bank.
+     *
+     * @param amount The amount of money the customer want to withdraw.
+     */
+    void dispenseMoney(double amount);
 }
