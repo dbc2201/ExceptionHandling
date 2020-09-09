@@ -6,14 +6,16 @@
  * */
 package exceptions.atm;
 
+import exceptions.atm.exceptions.NotEnoughMoneyException;
+
 public class MyBankATM implements ATM {
 
     private double amountLeftInATM;
 
     @Override
-    public void dispenseMoney(double amount) {
+    public void dispenseMoney(double amount) throws NotEnoughMoneyException {
         if (amountLeftInATM < amount) {
-            System.out.println("Not enough money in the ATM!");
+            throw new NotEnoughMoneyException("Not enough money in the ATM!");
         } else {
             System.out.println("Please collect your cash!");
             amountLeftInATM = amountLeftInATM - amount;

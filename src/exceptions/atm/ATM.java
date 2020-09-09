@@ -6,11 +6,21 @@
  * */
 package exceptions.atm;
 
+import exceptions.atm.exceptions.NotEnoughMoneyException;
+
 public interface ATM {
     /**
      * This method dispenses cash for a customer of the Bank.
      *
      * @param amount The amount of money the customer want to withdraw.
      */
-    void dispenseMoney(double amount);
+    void dispenseMoney(double amount) throws NotEnoughMoneyException;
 }
+
+// Method Signature
+// 1. visibility modifier
+// 2. static (access) modifier
+// 3. return type
+// 4. method name
+// 5. parameter list
+// 6. exception list
