@@ -11,5 +11,10 @@ package exceptions.atm.exceptions;
 // Custom Exceptions (because we [the developers] are creating our own exceptions)
 // Pre-Defined Exceptions
 public class NotEnoughMoneyException extends Exception {
-
+    public NotEnoughMoneyException(String message) {
+        super(message);
+        // we are calling the constructor of the Exception class
+        // by writing super()
+        // and, we are passing the message argument to it.
+    }
 }
