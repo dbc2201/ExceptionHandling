@@ -6,5 +6,10 @@
  * */
 package exceptions.atm.exceptions;
 
-public class NotEnoughMoneyException {
+// This is not an ordinary definition class,
+// this class is a definition class for an Exception type.
+// Custom Exceptions (because we [the developers] are creating our own exceptions)
+// Pre-Defined Exceptions
+public class NotEnoughMoneyException extends Exception {
+
 }
