@@ -51,3 +51,24 @@ package.
 3. After the `:` the compiler is telling us the reason for the occurrence of this exception, here, it is `/ by zero`.
 4. If you look at the last line, you will find a link to the actual file, method and line where the exception has 
 occurred.
+
+## Some common `Errors` and `Exceptions` in Java:
+### Errors
+- java.lang.LinkageError
+- java.lang.ThreadDeath
+- java.lang.ClassFormatError
+- java.lang.NoClassDefFoundError
+- java.lang.VirtualMachineError
+- java.lang.InternalError
+- java.lang.OutOfMemoryError 
+
+### Exceptions
+- java.lang.RuntimeException
+- java.lang.ClassNotFoundException
+- java.lang.ArithmeticException
+- java.lang.IllegalAccessException
+- java.lang.IllegalArgumentException
+- java.util.InputMismatchException
+- java.lang.ClassCastException
+- java.lang.InterruptedException
+- java.lang.ArrayStoreException
