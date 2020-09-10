@@ -16,5 +16,8 @@ public class Example1 {
         final Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your age: ");
         byte age = scanner.nextByte();
+        if (age < LEGAL_VOTING_AGE) {
+            System.out.println("Sorry, you are still young to age!");
+        }
     }
 }
