@@ -4,9 +4,9 @@
  *  Time: 3:19 PM
  *  File Name : ATM.java
  * */
-package exceptions.atm;
+package examples.atm;
 
-import exceptions.atm.exceptions.NotEnoughMoneyException;
+import examples.atm.exceptions.NotEnoughMoneyException;
 
 public interface ATM {
     /**

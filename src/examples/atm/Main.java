@@ -4,10 +4,10 @@
  *  Time: 3:33 PM
  *  File Name : Main.java
  * */
-package exceptions.atm;
+package examples.atm;
 
 
-import exceptions.atm.exceptions.NotEnoughMoneyException;
+import examples.atm.exceptions.NotEnoughMoneyException;
 
 public class Main {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@
  *  Time: 3:25 PM
  *  File Name : NotEnoughMoneyException.java
  * */
-package exceptions.atm.exceptions;
+package examples.atm.exceptions;
 
 // This is not an ordinary definition class,
 // this class is a definition class for an Exception type.

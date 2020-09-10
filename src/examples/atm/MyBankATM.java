@@ -4,9 +4,9 @@
  *  Time: 3:21 PM
  *  File Name : MyBankATM.java
  * */
-package exceptions.atm;
+package examples.atm;
 
-import exceptions.atm.exceptions.NotEnoughMoneyException;
+import examples.atm.exceptions.NotEnoughMoneyException;
 
 public class MyBankATM implements ATM {
 
