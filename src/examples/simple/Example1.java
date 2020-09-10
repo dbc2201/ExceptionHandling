@@ -18,6 +18,8 @@ public class Example1 {
         byte age = scanner.nextByte();
         if (age < LEGAL_VOTING_AGE) {
             System.out.println("Sorry, you are still young to age!");
+        } else {
+            System.out.println("Ok, you are allowed to vote!");
         }
     }
 }
