@@ -9,6 +9,9 @@ package examples.simple;
 import java.util.Scanner;
 
 public class Example1 {
+
+    private static final int LEGAL_VOTING_AGE = 18;
+
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your age: ");
