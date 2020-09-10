@@ -11,5 +11,6 @@ import java.util.Scanner;
 public class Example1 {
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your age: ");
     }
 }
