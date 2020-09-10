@@ -72,3 +72,6 @@ occurred.
 - java.lang.ClassCastException
 - java.lang.InterruptedException
 - java.lang.ArrayStoreException
+
+## Flowchart of a try/catch block
+![](./img/exceptionFlowChart.png)
