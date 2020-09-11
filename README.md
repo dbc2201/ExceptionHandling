@@ -61,6 +61,7 @@ occurred.
 - java.lang.VirtualMachineError
 - java.lang.InternalError
 - java.lang.OutOfMemoryError 
+- ... and many more
 
 ### Exceptions
 - java.lang.RuntimeException
@@ -72,6 +73,7 @@ occurred.
 - java.lang.ClassCastException
 - java.lang.InterruptedException
 - java.lang.ArrayStoreException
+- ... and many more
 
 ## Flowchart of a try/catch block
 ![](./img/exceptionFlowChart.png)

@@ -17,7 +17,7 @@ public class Example1 {
         System.out.println("Please enter your age: ");
         byte age = scanner.nextByte();
         if (age < LEGAL_VOTING_AGE) {
-            System.out.println("Sorry, you are still young to age!");
+            System.out.println("Sorry, you are still young to vote!");
         } else {
             System.out.println("Ok, you are allowed to vote!");
         }
