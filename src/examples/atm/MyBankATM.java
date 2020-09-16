@@ -15,7 +15,7 @@ public class MyBankATM implements ATM {
     @Override
     public void dispenseMoney(double amount) throws NotEnoughMoneyException {
         if (amountLeftInATM < amount) {
-            throw new NotEnoughMoneyException("Not enough money in the ATM!");
+            throw new NotEnoughMoneyException("Not Enough Money In The ATM!");
         } else {
             System.out.println("Please collect your cash!");
             amountLeftInATM = amountLeftInATM - amount;

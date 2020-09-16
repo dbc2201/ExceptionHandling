@@ -77,3 +77,42 @@ occurred.
 
 ## Flowchart of a try/catch block
 ![](./img/exceptionFlowChart.png)
+
+---
+
+Some Built-In Exceptions in Java
+1. `ArithmeticException`
+2. `ArrayIndexOutOfBoundsException`
+3. `ArrayStoreException`
+4. `ClassCastException`
+5. `EnumConstantNotPresentException`
+6. `IllegalArgumentException`
+7. `IllegalCallerException`
+8. `IllegalMonitorStateException`
+9. `IllegalStateException`
+10. `IllegalThreadStateException`
+11. `IndexOutOfBoundsException`
+12. `LayerInstantiationException`
+13. `NegativeArraySizeException`
+14. `NullPointerException`
+15. `NumberFormatException`
+16. `SecurityException`
+17. `StringIndexOutOfBoundsExeption`
+18. `TypeNotPresentException`
+19. `UnsupportedOperationException`
+20. `ClassNotFoundException`
+21. `CloneNotSupportedException`
+22. `IllegalAccessException`
+23. `InstantiationException`
+24. `InterruptedException`
+25. `NoSuchFieldException`
+26. `NoSuchMethodException`
+
+## Checked Exceptions
+- They are child classes of the `java.lang.Exception` class.
+- It is required to handle a `checked` exception using `try/catch` or to declare them
+using `throws`.
+
+## Unchecked Exceptions
+- They are also known as runtime exceptions.
+- All the Checked (Runtime) exceptions are subclasses (child classes) of `java.lang.RuntimeException` class.

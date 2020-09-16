@@ -11,6 +11,11 @@ public class UncaughtException {
         int number = 4;
         int divisor = 0;
         // forceful division by zero.
-        System.out.println(number / divisor);
+        try {
+            System.out.println(number / divisor);
+        } catch (ArithmeticException arithmeticException) {
+            System.err.println("An exception has occurred!");
+            System.err.println("reason: " + arithmeticException.getMessage());
+        }
     }
 }

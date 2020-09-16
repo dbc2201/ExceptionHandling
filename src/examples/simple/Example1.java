@@ -6,6 +6,7 @@
  * */
 package examples.simple;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Example1 {
@@ -15,7 +16,13 @@ public class Example1 {
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your age: ");
-        byte age = scanner.nextByte();
+        byte age = 0;
+        try {
+            age = scanner.nextByte();
+        } catch (InputMismatchException inputMismatchException) {
+            System.err.println(inputMismatchException.getMessage());
+            age = 18;
+        }
         if (age < LEGAL_VOTING_AGE) {
             System.out.println("Sorry, you are still young to vote!");
         } else {
