@@ -16,8 +16,13 @@ public class Main {
         );
         try {
             myHotel.createOrder("Pasta");
-        } catch (HotelCurrentlyClosedException e) {
+        } catch (HotelCurrentlyClosedException | NotEnoughIngredientsException
+                | PaymentNotReceivedException | HeavyRainException e) {
             System.err.println(e.getMessage());
+        } catch (BadDeliveryConditionsException e) {
+            System.err.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Some Exception");
         }
     }
 }

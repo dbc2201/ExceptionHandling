@@ -10,10 +10,10 @@ import java.util.Scanner;
 
 public class Example {
     public static void main(String[] args) {
-        System.out.println("Please enter your name: ");
+        // try with resources block
         String name = "John";
-        // try with resources
         try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Please enter your name: ");
             scanner.close();
             name = scanner.nextLine();
         } catch (Exception exception) {
