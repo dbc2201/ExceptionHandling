@@ -10,15 +10,13 @@ import java.util.Scanner;
 
 public class Example {
     public static void main(String[] args) {
-        // try with resources
         System.out.println("Please enter your name: ");
         String name = "";
-        try (Scanner scanner = new Scanner(System.in)) {
-            scanner.close();
-            name = scanner.nextLine();
-        } catch (IllegalStateException e) {
-            e.printStackTrace();
-        }
+        // try with resources
+        // resources would be objects of classes that need to be open and closed
+        // like the Scanner, File, Stream, etc.
+        Scanner scanner = new Scanner(System.in);
+        name = scanner.nextLine();
         System.out.println("Hello, " + name + ".");
     }
 }
